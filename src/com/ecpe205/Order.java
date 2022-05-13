@@ -56,7 +56,6 @@ public class Order {
     public double getGrandTotal() {
         //edit starts here
         double value = items.size();
-        return value; //please remove
-        //edit ends here
+        return value;
     }
 }
