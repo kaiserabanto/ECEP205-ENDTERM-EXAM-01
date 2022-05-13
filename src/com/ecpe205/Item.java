@@ -12,6 +12,7 @@ public class Item {
         //1. Compute for the amount based on the price of the product multiply with quantity
         //Edit starts here
         //this.amount =
+        this.amount =product.getPrice()*getQuantity();
         //Edit ends here
     }
 
@@ -26,6 +27,7 @@ public class Item {
         //2. Compute amount when the quantity changes
         //Edit starts here
         //this.amount =
+         this.amount=product.getPrice()*this.quantity;
         //Edit ends here
     }
 
@@ -39,6 +41,7 @@ public class Item {
         //3. Compute amount when the quantity changes
         //Edit starts here
         //this.amount =
+         this.amount=product.getPrice()*this.quantity;
         //Edit ends here
     }
 
