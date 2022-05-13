@@ -53,9 +53,10 @@ public class Order {
      * Returns the overall total of all the items
      * @return Overall Total
      */
-    public double getGrandTotal() {
-        //edit starts here
-        double value = items.size();
-        return value;
+    public double getTotal() {
+         double Total=0;
+        for(int i=0;i<items.size();i++){
+            Total +=items.get(i).getAmount();
+        }return Total;
     }
 }
