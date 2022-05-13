@@ -56,12 +56,12 @@ public class Order {
      * Returns the overall total of all the items
      * @return Overall Total
      */
-    public double getTotal() {
+    public double getoverallTotal() {
         //edit starts here
-         double Total=0;
+         double overallTotal=0;
         for(int i=0;i<items.size();i++){
-           Total +=items.get(i).getAmount();
-        }return Total;
+           overallTotal +=items.get(i).getAmount();
+        }return overallTotal;
         //edit ends here
     }
 }
